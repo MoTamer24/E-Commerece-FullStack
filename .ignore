@@ -1,0 +1,158 @@
+# Binaries for programs and executables
+bin/
+obj/
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache directories
+*.vs/
+*.vscode/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Resharper
+_ReSharper.*/
+
+# MSTest test Results
+TestResults/
+*_TestResults
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+
+# Intel Parallel Studio cache directory
+intel/
+
+# Backup & report files from the Visual Studio compiler/smart device linker
+*.bak
+BSC*.bsc
+*.pbd
+*.ipch
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# Visual Studio Coverage
+*.coverage
+*.coveragexml
+
+# TFS 2012 Local Workspace
+$tf/
+
+# Guidance Automation Toolkit
+*.gpState
+
+# ReSharper is a .NET coding assistant
+_ReSharper*/
+*.[Rr]eSharper
+*.DotSettings.user
+
+# TeamCity
+_TeamCity/
+
+# DotCover
+*.dotCover
+
+# AxoCover
+*.axoCover.*
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# Visual Studio 2015 cache/options directory
+.vs/
+
+# Visual Studio 2017 temporary files
+*.vspscc
+*.sln.docstates
+
+# Visual Studio 2017 cache/options directory
+.vs/
+
+# Visual Studio 2019/2022 cache/options directory
+.vs/
+
+# Visual Studio 2019/2022 profiler
+*.coveragexml
+
+# Visual Studio 2019/2022 code coverage
+*.coverage
+*.coveragexml
+
+# Visual Studio 2019/2022 temporary files
+*.vspscc
+*.sln.docstates
+
+# Visual Studio 2019/2022 cache/options directory
+.vs/
+
+# Visual Studio 2019/2022 profiler
+*.coveragexml
+
+# Visual Studio 2019/2022 code coverage
+*.coverage
+*.coveragexml
+
+# Visual Studio 2019/2022 temporary files
+*.vspscc
+*.sln.docstates
+
+# Visual Studio 2019/2022 cache/options directory
+.vs/
+
+# Visual Studio 2019/2022 profiler
+*.coveragexml
+
+# Visual Studio 2019/2022 code coverage
+*.coverage
+*.coveragexml
+
+# Visual Studio 2019/2022 temporary files
+*.vspscc
+*.sln.docstates
+
+# Visual Studio 2019/2022 cache/options directory
+.vs/
+
+# Visual Studio 2019/2022 profiler
+*.coveragexml
+
+# Visual Studio 2019/2022 code coverage
+*.coverage
+*.coveragexml
+
+# Visual Studio 2019/2022 temporary files
+*.vspscc
+*.sln.docstates
+
+# Visual Studio 2019/2022 cache/options directory
+.vs/
+
+# Visual Studio 2019/2022 profiler
+*.coveragexml
+
+# Visual Studio 2019/2022 code coverage
+*.coverage
+*.coveragexml
+
+# Visual Studio 2019/2022 temporary files
+*.
