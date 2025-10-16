@@ -1,13 +1,14 @@
 using Application.IRepositories;
 using Microsoft.EntityFrameworkCore;
+using Application.Interfaces;
 using System.Linq.Expressions;
 // This using statement points to your Application layer's interfaces
 namespace Infrastructure;
 
 public class GenericRepository<T>:IGenericRepository<T> where T:class
 {
-    private readonly ApplicationDbContext _context;
-    private readonly DbSet<T> _dbSet;
+    protected readonly ApplicationDbContext _context;
+    protected readonly DbSet<T> _dbSet;
 
     public GenericRepository(ApplicationDbContext context)
     {

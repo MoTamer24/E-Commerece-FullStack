@@ -1928,11 +1928,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/Application/Application.csproj",
+      "projectUniqueName": "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Application/Application.csproj",
       "projectName": "Application",
-      "projectPath": "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/Application/Application.csproj",
+      "projectPath": "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Application/Application.csproj",
       "packagesPath": "/home/motamerf/.nuget/packages/",
-      "outputPath": "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/Application/obj/",
+      "outputPath": "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/motamerf/.nuget/NuGet/NuGet.Config"
@@ -1948,8 +1948,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/Domain/Domain.csproj": {
-              "projectPath": "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/Domain/Domain.csproj"
+            "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/Domain.csproj": {
+              "projectPath": "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/Domain.csproj"
             }
           }
         }

@@ -1949,11 +1949,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/Infrastructure/Infrastructure.csproj",
+      "projectUniqueName": "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Infrastructure/Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/Infrastructure/Infrastructure.csproj",
+      "projectPath": "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Infrastructure/Infrastructure.csproj",
       "packagesPath": "/home/motamerf/.nuget/packages/",
-      "outputPath": "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/Infrastructure/obj/",
+      "outputPath": "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/motamerf/.nuget/NuGet/NuGet.Config"
@@ -1969,11 +1969,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/Application/Application.csproj": {
-              "projectPath": "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/Application/Application.csproj"
+            "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Application/Application.csproj": {
+              "projectPath": "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Application/Application.csproj"
             },
-            "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/Domain/Domain.csproj": {
-              "projectPath": "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/Domain/Domain.csproj"
+            "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/Domain.csproj": {
+              "projectPath": "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/Domain.csproj"
             }
           }
         }

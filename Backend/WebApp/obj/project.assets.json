@@ -80,11 +80,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/WebApp/WebApp.csproj",
+      "projectUniqueName": "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/WebApp/WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/WebApp/WebApp.csproj",
+      "projectPath": "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/WebApp/WebApp.csproj",
       "packagesPath": "/home/motamerf/.nuget/packages/",
-      "outputPath": "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/WebApp/obj/",
+      "outputPath": "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/WebApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/motamerf/.nuget/NuGet/NuGet.Config"

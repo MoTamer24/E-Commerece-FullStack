@@ -1,9 +1,6 @@
-using Domain.Entities;
+namespace Application.Interfaces;
 
-namespace Application.IRepositories;
-
-public interface IOrderRepository:IGenericRepository<Order>
+public class IOrderRepository
 {
-    public Task<IEnumerable<Order>> GetByUserId(int userId);
     
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/Domain/Domain.csproj": {}
+    "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/Domain.csproj": {}
   },
   "projects": {
-    "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/Domain/Domain.csproj": {
+    "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/Domain/Domain.csproj",
+        "projectUniqueName": "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/Domain/Domain.csproj",
+        "projectPath": "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/Domain.csproj",
         "packagesPath": "/home/motamerf/.nuget/packages/",
-        "outputPath": "/home/motamerf/MoRoom/Play_Ground/Projects/The E-Commerce/Domain/obj/",
+        "outputPath": "/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/motamerf/.nuget/NuGet/NuGet.Config"

@@ -1,4 +1,4 @@
-namespace Application.IRepositories;
+namespace Application.Interfaces;
 using System.Linq.Expressions;
 public interface IGenericRepository<T>
 {
