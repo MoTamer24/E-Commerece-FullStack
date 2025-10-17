@@ -1,6 +1,6 @@
 namespace Application.Interfaces;
 
-public class IOrderRepository
+public interface IOrderRepository
 {
     
 }
