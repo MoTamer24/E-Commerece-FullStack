@@ -1,4 +1,4 @@
-using Application.IRepositories;
+using Application.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Application.Interfaces;
 using System.Linq.Expressions;

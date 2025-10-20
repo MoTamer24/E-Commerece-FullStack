@@ -1,4 +1,4 @@
-namespace Application.IRepositories;
+namespace Application.Interfaces;
 
 public interface IUnitOfWork
 {

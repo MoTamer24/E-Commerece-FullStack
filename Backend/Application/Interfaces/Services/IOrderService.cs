@@ -1,6 +1,7 @@
 using Application.DTOs;
 
 namespace Application.Interfaces.Services;
+using Domain.Entities;
 
 public interface IOrderService
 {
@@ -40,4 +41,6 @@ public interface IOrderService
     /// </summary>
     /// <param name="orderId">The ID of the order to cancel.</param>
     Task CancelOrderAsync(int orderId);
+
+
 }

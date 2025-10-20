@@ -7,12 +7,6 @@ public class OrderSummaryDto
     public DateTime OrderDate { get; set; } = DateTime.UtcNow;
     public decimal TotalAmount { get; set; } // Calculated sum of items and shipping
     public string Status { get; set; } = "Pending"; // e.g., "Pending", "Paid", "Shipped"
-
-    // Shipping Address fields (copied at time of order)
-    public string ShippingStreet { get; set; }
-    public string ShippingCity { get; set; }
-    public string ShippingPostalCode { get; set; }
-    public string ShippingCountry { get; set; }
 }
 
 public class OrderDetailsDto

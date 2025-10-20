@@ -7,11 +7,11 @@ namespace Infrastructure.Repositories;
 
 public class ProductRepository : GenericRepository<Product> ,IProductRepository 
 {
-    private readonly ApplicationDbContext _context;
+
 
     public ProductRepository(ApplicationDbContext context):base(context)
     {
-        _context = context;
+       
     }
     public async Task<IEnumerable<Product>> GetProductsByCategory(int categoryId)
     {
@@ -26,6 +26,16 @@ public class ProductRepository : GenericRepository<Product> ,IProductRepository
             .Include(p=>p.Category)
             .FirstOrDefaultAsync(p => p.Id == id);
         return res;
+    }
+    public async Task<IEnumerable<Product>> GetProductsById(List<int> ids)
+    {
+        var idSet = new HashSet<int>(ids);
+        var products = await _context.Products
+            .Include(p => p.Category)
+            .Where(p => idSet.Contains(p.Id))
+            .ToListAsync();
+        
+        return products;
     }
     
 
