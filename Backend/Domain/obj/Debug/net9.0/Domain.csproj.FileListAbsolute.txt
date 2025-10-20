@@ -1,0 +1,13 @@
+/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/bin/Debug/net9.0/Domain.deps.json
+/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/bin/Debug/net9.0/Domain.dll
+/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/bin/Debug/net9.0/Domain.pdb
+/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/obj/Debug/net9.0/Domain.csproj.AssemblyReference.cache
+/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/obj/Debug/net9.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/obj/Debug/net9.0/Domain.AssemblyInfoInputs.cache
+/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/obj/Debug/net9.0/Domain.AssemblyInfo.cs
+/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/obj/Debug/net9.0/Domain.csproj.CoreCompileInputs.cache
+/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/obj/Debug/net9.0/Domain.sourcelink.json
+/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/obj/Debug/net9.0/Domain.dll
+/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/obj/Debug/net9.0/refint/Domain.dll
+/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/obj/Debug/net9.0/Domain.pdb
+/home/motamerf/MoRoom/Play_Ground/Projects/E-Commerce Proj-FullStack/Backend/Domain/obj/Debug/net9.0/ref/Domain.dll

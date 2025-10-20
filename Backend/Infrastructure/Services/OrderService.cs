@@ -32,7 +32,7 @@ public class OrderService : IOrderService
     /// </summary>
     /// <param name="customerId">The ID of the customer placing the order.</param>
     /// <returns>A summary of the newly created, pending order.</returns>
-    public async Task<OrderSummaryDto> CreateOrderAsync(int customerId)
+    public async Task<OrderSummaryDto> CreateOrderAsync(string customerId)
     {
         // load cart items 
        // --- The parts you did perfectly ---
@@ -110,6 +110,7 @@ await _orderRepository.AddAsync(newOrder);
 
         return new OrderSummaryDto()
 {
+    OrderId= newOrder.Id,
     OrderDate = newOrder.OrderDate,
     Status = newOrder.Status,
     TotalAmount = newOrder.TotalAmount
@@ -252,4 +253,7 @@ await _orderRepository.AddAsync(newOrder);
         }
         
     }
+
+
+    
 }

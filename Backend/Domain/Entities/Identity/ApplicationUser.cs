@@ -1,6 +1,6 @@
 namespace Domain.Entities.Identity; 
 using Microsoft.AspNetCore.Identity;
-public abstract class ApplicationUser:IdentityUser<string>  
+public  class ApplicationUser:IdentityUser<string>  
 {
     // Extended fields from the Users table
     // Email and Phone Number are already in IdentityUser

@@ -12,7 +12,7 @@ public interface IOrderService
     /// </summary>
     /// <param name="customerId">The ID of the customer placing the order.</param>
     /// <returns>A summary of the newly created, pending order.</returns>
-    Task<OrderSummaryDto> CreateOrderAsync(int customerId);
+    Task<OrderSummaryDto> CreateOrderAsync(string customerId);
 
     /// <summary>
     /// Gets a list of all orders for a specific user.
@@ -41,6 +41,7 @@ public interface IOrderService
     /// </summary>
     /// <param name="orderId">The ID of the order to cancel.</param>
     Task CancelOrderAsync(int orderId);
+
 
 
 }

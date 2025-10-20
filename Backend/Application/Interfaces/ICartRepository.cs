@@ -3,5 +3,5 @@ using Domain.Entities;
 
 public interface ICartRepository:IGenericRepository<Cart>
 {
-    Task<Cart?> GetCartByCustomerId(int customerId);
+    Task<Cart?> GetCartByCustomerId(string customerId);
 }

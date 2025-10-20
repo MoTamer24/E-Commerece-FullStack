@@ -4,6 +4,7 @@ using Domain.Entities.Identity;
 
 public class OrderSummaryDto
 {
+    public int OrderId { get; set; }
     public DateTime OrderDate { get; set; } = DateTime.UtcNow;
     public decimal TotalAmount { get; set; } // Calculated sum of items and shipping
     public string Status { get; set; } = "Pending"; // e.g., "Pending", "Paid", "Shipped"

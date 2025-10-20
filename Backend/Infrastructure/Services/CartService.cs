@@ -22,7 +22,7 @@ public class CartService : ICartService
         _cartItemRepository = cartItemRepository;
     }
 
-    public async Task AddToCartAsync(int userId, int productId, int quantity)
+    public async Task AddToCartAsync(string userId, int productId, int quantity)
     {
         // 1. Get the user's cart (or create one if it doesn't exist)
         var cart = await _cartRepository.GetCartByCustomerId(userId);
@@ -54,7 +54,7 @@ public class CartService : ICartService
         await _unitOfWork.SaveAllChangesAsync();
     }
 
-    public async Task<CartDto> GetCartAsync(int userId)
+    public async Task<CartDto> GetCartAsync(string userId)
     {
         var cart = await _cartRepository.GetCartByCustomerId(userId);
         if (cart == null)
@@ -77,7 +77,7 @@ public class CartService : ICartService
         return cartDto;
     }
 
-    public async Task RemoveFromCartAsync(int userId, int productId)
+    public async Task RemoveFromCartAsync(string userId, int productId)
     {
         var cart = await _cartRepository.GetCartByCustomerId(userId);
         if (cart == null) return; 

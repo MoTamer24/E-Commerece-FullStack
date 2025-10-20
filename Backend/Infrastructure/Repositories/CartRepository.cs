@@ -15,7 +15,7 @@ public class CartRepository : GenericRepository<Cart>, ICartRepository
         _context = context;
     }
 
-    public async Task<Cart?> GetCartByCustomerId(int userId)
+    public async Task<Cart?> GetCartByCustomerId(string userId)
     {
         return await _context.Carts.Include(c => c.CartItems)
             .ThenInclude(i => i.Product) // Important: load the product details for each item
